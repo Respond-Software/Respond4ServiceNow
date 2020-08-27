@@ -67,6 +67,10 @@
         <element attributes="edge_encryption_enabled=true" label="Time updated" max_length="40" name="time_updated" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Title" max_length="1000" name="title" type="string"/>
         <index name="index">
+            <element name="incident_id"/>
+            <element name="tenant_id_respond"/>
+        </index>
+        <index name="index2">
             <element name="sys_class_name"/>
         </index>
     </element>
