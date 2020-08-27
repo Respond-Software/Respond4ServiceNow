@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_resolution" label="resolution" language="en" table="x_166621_respond_i_1598468093911">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_resolution</element>
+            <help/>
+            <hint/>
+            <label>resolution</label>
+            <language>en</language>
+            <name>x_166621_respond_i_1598468093911</name>
+            <plural>resolutions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-26 18:54:56</sys_created_on>
+            <sys_id>a5ff4d362f721010e46056e62799b610</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>resolution</sys_name>
+            <sys_package display_value="Respond Incidents" source="x_166621_respond_i">a93f413e2f321010e46056e62799b658</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Respond Incidents">a93f413e2f321010e46056e62799b658</sys_scope>
+            <sys_update_name>sys_documentation_x_166621_respond_i_1598468093911_u_resolution_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-26 18:54:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

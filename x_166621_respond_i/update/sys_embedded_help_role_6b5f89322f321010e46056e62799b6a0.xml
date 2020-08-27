@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_166621_respond_i.analyst" name="x_166621_respond_i.analyst">575f89322f321010e46056e62799b69c</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-26 18:52:19</sys_created_on>
+        <sys_id>6b5f89322f321010e46056e62799b6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>575f89322f321010e46056e62799b69c</sys_name>
+        <sys_package display_value="Respond Incidents" source="x_166621_respond_i">a93f413e2f321010e46056e62799b658</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Respond Incidents">a93f413e2f321010e46056e62799b658</sys_scope>
+        <sys_update_name>sys_embedded_help_role_6b5f89322f321010e46056e62799b6a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-26 18:52:19</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Respond Incidents" max_length="40" name="x_166621_respond_i_respond_incidents" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Attack tactic" max_length="40" name="attack_tactic" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Close URL" max_length="1024" name="close_url" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Escalation reasons" max_length="4000" name="escalation_reasons" type="string"/>
+        <element label="Event count" max_length="40" name="event_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Feedback comments" max_length="4000" name="feedback_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Feedback outcome" max_length="40" name="feedback_outcome" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Confirmed Incident" value="Confirmed Incident"/>
+                <element inactive_on_update="false" label="Confirmed Incident" value="Non-actionable"/>
+                <element inactive_on_update="false" label="Inconclusive" value="Inconclusive"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Feedback userid" max_length="40" name="feedback_userid" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First event time" max_length="40" name="first_event_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Highest asset criticality" max_length="40" name="highest_asset_criticality" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" value="Critical"/>
+                <element inactive_on_update="false" label="High" value="High"/>
+                <element inactive_on_update="false" label="Low" value="Low"/>
+                <element inactive_on_update="false" label="Medium" value="Medium"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Incident ID" max_length="40" name="incident_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Incident URL" max_length="1024" name="incident_url" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Internal assets" max_length="4000" name="internal_assets" type="string"/>
+        <element label="Internal asset count" max_length="40" name="internal_asset_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Last event time" max_length="40" name="last_event_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Probability" max_length="40" name="probability" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" value="High"/>
+                <element inactive_on_update="false" label="Low" value="Low"/>
+                <element inactive_on_update="false" label="Medium" value="Medium"/>
+                <element inactive_on_update="false" label="VeryHigh" value="VeryHigh"/>
+                <element inactive_on_update="false" label="VeryLow" value="VeryLow"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Resolution" max_length="40" name="resolution" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Inconclusive" value="Inconclusive"/>
+                <element inactive_on_update="false" label="Non-Actionable" value="Non-Actionable"/>
+                <element inactive_on_update="false" label="Resolved" value="Resolved"/>
+                <element inactive_on_update="false" label="Suspended" value="Suspended"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Severity" max_length="40" name="severity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" value="1"/>
+                <element inactive_on_update="false" label="2" value="2"/>
+                <element inactive_on_update="false" label="3" value="3"/>
+                <element inactive_on_update="false" label="4" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" value="Closed"/>
+                <element inactive_on_update="false" label="In Progress" value="In Progress"/>
+                <element inactive_on_update="false" label="Open" value="Open"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Tenant ID" max_length="40" name="tenant_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tenant ID respond" max_length="40" name="tenant_id_respond" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Time generated" max_length="4000" name="time_generated" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Time updated" max_length="40" name="time_updated" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="1000" name="title" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
