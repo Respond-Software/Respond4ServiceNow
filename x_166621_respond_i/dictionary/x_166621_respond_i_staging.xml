@@ -2,7 +2,7 @@
     <element extends="sys_import_set_row" label="Staging" max_length="40" name="x_166621_respond_i_staging" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=attack_tactic" label="attack_tactic" max_length="40" name="u_attack_tactic" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=close_url" label="close_url" max_length="1024" name="u_close_url" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=escalation_reasons" label="escalation_reasons" max_length="114" name="u_escalation_reasons" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=escalation_reasons" label="escalation_reasons" max_length="4000" name="u_escalation_reasons" type="string"/>
         <element attributes="import_attribute_name=event_count" label="event_count" max_length="40" name="u_event_count" type="integer"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=feedback_comments" label="feedback_comments" max_length="40" name="u_feedback_comments" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=feedback_outcome" label="feedback_outcome" max_length="40" name="u_feedback_outcome" type="string"/>
@@ -11,7 +11,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=highest_asset_criticality" label="highest_asset_criticality" max_length="40" name="u_highest_asset_criticality" type="string"/>
         <element attributes="import_attribute_name=incident_id" label="incident_id" max_length="40" name="u_incident_id" type="integer"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=incident_url" label="incident_url" max_length="1024" name="u_incident_url" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=internal_assets" label="internal_assets" max_length="75" name="u_internal_assets" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=internal_assets" label="internal_assets" max_length="4000" name="u_internal_assets" type="string"/>
         <element attributes="import_attribute_name=internal_asset_count" label="internal_asset_count" max_length="40" name="u_internal_asset_count" type="integer"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=last_event_time" label="last_event_time" max_length="40" name="u_last_event_time" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=probability" label="probability" max_length="40" name="u_probability" type="string"/>
